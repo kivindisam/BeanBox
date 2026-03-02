@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> 
+
+</head>
+<body
+  onload="greetUser()">
+  <!--navigator-->
+  <header>
+  <a href="#"class="logo">
+  <a href="IMG/logo.jpeg" alt=""></a>
+  </a>
+    <!--menu icon-->
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <!--links-->
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#customers">Branches</a></li>
+    </ul>
+
+    <!--icons-->
+    <div class="header-icon">
+      <i class='bx bx-cart-alt'></i>
+      <i class='bx bx-search-alt-2' id="search-icon"></i>
+    </div>
+
+    <!--search-box-->
+    <div class="search-box">
+      <input type="search" placeholder="Search here..">
+    </div>
+  </header>
+  <!--Home-->
+  <section class="home" id="home">
+   <div class="home-text">
+     <h1>Start your day with Bean Box</h1>
+     <p>At Bean Box, we craft every cup with care to bring you the rich aroma, 
+      bold flavor, and warmth that every coffee lover deserves.
+      Whether it's your morning boost or an afternoon pick-me-up, we've got the perfect brew waiting for you.</p>
+     <a href="#" class="btn">Shop Now</a>
+   </div>
+   <div class="home-img">
+     <img src="IMG/main.png" alt="">
+   </div>
+  </section>
+  <!--About-->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="IMG/about.jpg" alt="">
+    </div>
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>At Bean Box, coffee isn't just a drink — it's a daily ritual, a moment of joy, and a source of connection.
+        Born out of a passion for perfectly brewed coffee, we set out to create a space where every sip feels special.
+        Our mission is simple: to serve quality coffee drinks made from freshly roasted beans, crafted with love and consistency</p>
+      <p>We specialize in a wide range of coffee-based beverages, from strong espressos and smooth lattes to rich mochas and refreshing cold brews.
+        Each cup is carefully prepared using premium ingredients and modern brewing techniques to give you the taste and aroma you deserve.
+        Whether you're a casual coffee sipper or a true connoisseur, there's something for you at Bean Box</p>
+      <p>More than just a coffee shop, Bean Box is your cozy corner for comfort, energy, and inspiration.
+        We believe in creating a warm, welcoming atmosphere where you can relax, recharge, or connect with others — all with a great cup in hand.
+        Join us, and make Bean Box part of your daily routine.</p>
+    </div>
+  </section>
+  <!--Product-->
+  <section class="products" id="products">
+    <div class="heading">
+      <h2>Our Popular Products</h2>
+    </div>
+    <!--container-->
+    <div class="product-container">
+      <div class="box">
+        <img src="IMG/p1.jpeg" alt="">
+        <h3>Americano</h3>
+        <div class="content">
+          <span>Rs:1200.00</span>
+          <a href="#">Add To Cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="IMG/p2.jpeg" alt="">
+        <h3>Cappuccino</h3>
+        <div class="content">
+          <span>Rs:1650.00</span>
+          <a href="#">Add To Cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="IMG/p3.jpeg" alt="">
+        <h3>Espresso</h3>
+        <div class="content">
+          <span>Rs:1400.00</span>
+          <a href="#">Add To Cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="IMG/p4.jpeg" alt="">
+        <h3>Latte</h3>
+        <div class="content">
+          <span>Rs:1350.00</span>
+          <a href="#">Add To Cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="IMG/p5.jpeg" alt="">
+        <h3>Mocha</h3>
+        <div class="content">
+          <span>Rs:1700.00</span>
+          <a href="#">Add To Cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="IMG/p6.jpeg" alt="">
+        <h3>Affogato</h3>
+        <div class="content">
+          <span>Rs:1550.00</span>
+          <a href="#">Add To Cart</a>
+        </div>
+      </div>
+      
+      <div class="box">
+        <img src="IMG/p7.jpeg" alt="">
+        <h3>Cortado</h3>
+        <div class="content">
+          <span>Rs:1600.00</span>
+          <a href="#">Add To Cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="IMG/p8.jpeg" alt="">
+        <h3>Caffè macchiato</h3>
+        <div class="content">
+          <span>Rs:1800.00</span>
+          <a href="#">Add To Cart</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+<!-- Branches -->
+<section class="branches" id="customers">
+  <div class="heading">
+    <h2>Our Branches</h2>
+  </div>
+  <table class="branches-table">
+    <thead>
+      <tr>
+        <th>Branch</th>
+        <th>Address</th>
+        <th>Contact Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Colombo-Borella</td>
+        <td>123 Galle Road,Colombo 08</td>
+        <td>+94 77 123-4567</td>
+      </tr>
+      <tr>
+        <td>Colombo-Rathmalana</td>
+        <td>54A,Galle Road,Rathmalana </td>
+        <td>+94 77 765-4321</td>
+      </tr>
+      <tr>
+        <td>Kandy</td>
+        <td>789,Lake Road,Kandy</td>
+        <td>+94 77 987-6543</td>
+      </tr>
+      <tr>
+        <td>Galle</td>
+        <td>321B,Fort Street,Galle</td>
+        <td>+94 77 555-8888</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
+<!--footer section-->
+<section class="footer">
+  <div class="footer-box">
+   <h3>Bean Box</h3>
+   <p>Thank you for visiting Bean Box.
+    your one-stop destination for handcrafted coffee drinks.
+    Stay connected and follow us for updates, offers, and more!</p>
+  <div class="social">
+    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+    <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+    <a href="#"><i class='bx bxl-tiktok'></i></a>
+   </div>
+  </div>
+
+  <div class="footer-box">
+    <h3>Explore</h3>
+    <li><a href="#">Us</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Branches</a></li>
+    <li><a href="#">Contact us</a></li>
+  </div>
+
+  <div class="footer-box">
+    <h3>Connect With Us</h3>
+    <div class="contact">
+      <span><i class='bx bx-map'></i>1225A,Galle Road,Matara</span>
+      <span><i class='bx bx-phone-call'></i>+94 77 888-8889</span>
+      <span><i class='bx bx-envelope'></i>info@beanbox.lk</span>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
